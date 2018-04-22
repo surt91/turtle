@@ -1,0 +1,8 @@
+[package]
+name = "turtle"
+version = "0.1.0"
+authors = ["Hendrik Schawe <surt91@gmail.com>"]
+
+[dependencies]
+rayon = "*"
+itertools = "*"

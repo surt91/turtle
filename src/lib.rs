@@ -1,3 +1,5 @@
+#[macro_use] extern crate itertools;
+
 mod point;
 use self::point::Point;
 
@@ -7,7 +9,7 @@ use std::cmp;
 extern crate rayon;
 use self::rayon::prelude::*;
 
-use color;
+mod color;
 
 pub trait Turtle {
     fn forward(&mut self, d: f64);
